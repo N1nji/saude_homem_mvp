@@ -83,6 +83,7 @@ flutter:
     - assets/healthcare.gif
     - assets/healthcare.png
     - assets/image.jpg
+    - assets/doctor.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

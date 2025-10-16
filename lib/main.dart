@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'pages/splashscreen.dart';
 import 'pages/login.dart';
 import 'pages/register.dart';
 import 'pages/home.dart';
+import 'pages/feed.dart';
+import 'pages/chat.dart';
+import 'pages/create_post.dart';
 import 'providers/auth_provider.dart';
 import 'providers/feed_provider.dart';
 
@@ -30,11 +34,15 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.interTextTheme(),
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        initialRoute: '/login',
+        initialRoute: '/splashscreen',
         routes: {
+          '/splashscreen': (_) => const SplashPage(),
           '/login': (_) => const LoginPage(),
           '/register': (_) => const RegisterPage(),
           '/home': (_) => const HomePage(),
+          '/feed': (_) => const FeedPage(),
+          '/chat': (_) => const ChatPage(),
+          '/createPost': (_) => const CreatePostPage(),
         },
       ),
     );
