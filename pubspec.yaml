@@ -44,7 +44,11 @@ dependencies:
   animations: ^2.0.11
   google_fonts: ^6.3.2
   timeago: ^3.7.1
-
+  flutter_animate: ^4.0.0
+  video_player: ^2.9.1
+  webview_flutter: ^4.7.0
+  connectivity_plus: ^6.1.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -74,16 +78,14 @@ flutter_launcher_icons:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
   assets:
     - assets/healthcare.gif
     - assets/healthcare.png
     - assets/image.jpg
     - assets/doctor.json
+    - assets/videos/novembro_azul.mp4
+    - assets/gato.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

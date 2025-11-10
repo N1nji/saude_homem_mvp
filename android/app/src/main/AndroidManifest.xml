@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- 🔹 Permissões globais vêm logo aqui -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
     <application
         android:label="Espaço Seguro"
         android:name="${applicationName}"

@@ -63,7 +63,7 @@ class _RegisterPageState extends State<RegisterPage> {
       'Conta criada com sucesso 🎉 Faça login para continuar.',
     );
 
-    Navigator.pushReplacementNamed(context, '/home');
+    Navigator.pushReplacementNamed(context, '/tutorial_page');
   }
 
   @override

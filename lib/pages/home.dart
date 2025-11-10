@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _index = 0;
-  final pages = const [FeedPage(), DoctorsPage(), InfoPage(), ProfilePage()];
+  final pages = const [FeedPage(), DoctorsPage(), InfoPanelPage(), ProfilePage()];
 
   @override
   Widget build(BuildContext context) {

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'pages/tutorial_page.dart';
+import 'pages/video_page.dart';
 import 'pages/splashscreen.dart';
 import 'pages/login.dart';
 import 'pages/register.dart';
@@ -36,6 +38,8 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: '/splashscreen',
         routes: {
+          '/tutorial_page': (_) => const TutorialPage(),
+          '/video': (_) => const VideoPage(),
           '/splashscreen': (_) => const SplashPage(),
           '/login': (_) => const LoginPage(),
           '/register': (_) => const RegisterPage(),
