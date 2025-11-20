@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'pages/terms_page.dart';
 import 'pages/tutorial_page.dart';
 import 'pages/video_page.dart';
 import 'pages/splashscreen.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: '/splashscreen',
         routes: {
+          '/terms': (context) => const TermsPage(),
           '/tutorial_page': (_) => const TutorialPage(),
           '/video': (_) => const VideoPage(),
           '/splashscreen': (_) => const SplashPage(),

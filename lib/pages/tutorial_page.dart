@@ -14,7 +14,7 @@ class _TutorialPageState extends State<TutorialPage> {
 
   final List<Map<String, dynamic>> tutorialData = [
     {
-      "title": "Opa! Meu nome é N1nji, sou o dev do app 😎",
+      "title": "Opa! Meu nome é N1nji, sou um dos dev do app 😎",
       "icon": Icons.person,
       "colors": [Colors.blue, Colors.lightBlueAccent],
     },

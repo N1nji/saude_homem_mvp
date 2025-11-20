@@ -48,6 +48,7 @@ dependencies:
   video_player: ^2.9.1
   webview_flutter: ^4.7.0
   connectivity_plus: ^6.1.0
+  mask_text_input_formatter: ^2.3.0
   
 dev_dependencies:
   flutter_test:
@@ -86,6 +87,8 @@ flutter:
     - assets/doctor.json
     - assets/videos/novembro_azul.mp4
     - assets/gato.json
+    - assets/success.json
+    - assets/document.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:
