@@ -92,39 +92,39 @@ ____
 ### 🧑‍💻 Como rodar o projeto (Flutter)
 
 ## Clonar o repositório
-´´´bash
+´´´bash  
 git clone https://github.com/N1nji/saude_homem_mvp
 
 ### Acessar o diretório
-´´´bash
+´´´bash  
 cd espaco-seguro
 
 ### Instalar dependências
-´´´bash
+´´´bash  
 flutter pub get
 
 ### Rodar aplicação
-´´´bash
+´´´bash  
 flutter run
 ____
 
 ## 🔧 Como rodar o backend (C#)
 
 ### Acessar a pasta da API
-´´´bash
+´´´bash  
 cd backend
 
 ### Restaurar dependências
-´´´bash
+´´´bash  
 dotnet restore
 
 ### Rodar API
-´´´bash
+´´´bash  
 dotnet run
 ____
 
 ## 🐳 Rodando com Docker
-´´´bash
+´´´bash  
 docker-compose up -d
 
 ## 🧑‍⚕️ Equipe Desenvolvedora
