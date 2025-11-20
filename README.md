@@ -92,9 +92,8 @@ ____
 ### 🧑‍💻 Como rodar o projeto (Flutter)
 
 ## Clonar o repositório  
-
-```bash  
-git clone https://github.com/N1nji/saude_homem_mvp
+ 
+git clone https://github.com/N1nji/saude_homem_mvp  
 
 1. Acessar o diretório
 ```bash  
@@ -122,12 +121,11 @@ dotnet restore
 3. Rodar API
 ```bash  
 dotnet run
-____
 
-## 🐳 Rodando com Docker
+4. 🐳 Rodando com Docker
 ```bash  
 docker-compose up -d  
-___
+____
 
 ## 🧑‍⚕️ Equipe Desenvolvedora
 
